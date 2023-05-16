@@ -8,13 +8,12 @@ Predictive Model to use:
 To complete this project, I’ll be using NLP (Natural Language Processing) to get all the keywords related to the World Cup Final 2022 that took place just a couple of months ago. I will assess all the people comments for the final teams and then I will make my conclusions based on the most good or bad twitter comments against France or Argentina.
 
 
-The steps to complete this project will be the following:
-1.	Import the libraries needed to complete the tasks (Pandas, numpy, seaborn, matplotlib, etc).
-2.	Retrieve the data from twitter website using webscraping. I’ll be taking official the official accounts for France and Argentina. As well as other accounts that I found useful for this purpose.
-3.	Download the data and save it as csv file.
-4.	Read the dataset using the pandas library.
-5.	Explore and clean the dataset using built-in functions as info (), dropna (), shape () etc.
-6.	Use some pre-trained models as BERT and VADER.
-7.	I will analyze people’s sentiment for this match.
-8.	I’ll proceed on making a cleaning of data, so we could predict the next champion.
-9.	Finally, I’ll plot the number of good and bad comments for both teams.
+The following steps will be undertaken to accomplish this project:
+* Import the necessary libraries such as Pandas, NumPy, Seaborn, Matplotlib, and others, which are required for the tasks at hand.
+* Scrape data from the Twitter website by accessing the official accounts of France and Argentina. Additionally, I will incorporate data from other relevant  accounts that I have identified for this specific purpose.
+* Download the obtained data and save it in a CSV file for further analysis.
+* Read the dataset using the Pandas library, enabling exploration and cleaning of the data using various built-in functions such as info(), dropna(), shape(), and more.
+* Employ pre-trained models such as BERT (Bidirectional Encoder Representations from Transformers) and VADER (Valence Aware Dictionary and Senntiment Reasoner) to aid in the analysis of sentiment expressed by individuals regarding this match.
+* Conduct a comprehensive analysis of people's sentiments associated with the World Cup Final.
+* Perform data cleaning procedures to prepare the dataset for predicting the eventual champion.
+* Lastly, create visualizations illustrating the number of positive and negative comments for both teams, effectively showcasing the sentiment distribution for each.
